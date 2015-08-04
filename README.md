@@ -7,12 +7,11 @@ http://www.chenjianjx.com/myblog/entry/%E9%80%9A%E8%BF%87shell%E8%84%9A%E6%9C%AC
 
 
 #大致步骤：
-0. 手工初始化项目 <git init / git clone>
-
-1. 更新代码  <git pull *>
-2. 打包      <mvn clean install>
-3. 杀掉Tomcat 进程  <kill -9 #PID#>
-4. 备份旧war包      <backup old-war (mv) >
-5. 部署新war包      <deploy new-war (cp) >
-6. 启动Tomcat       <./bin/startup.sh>
+0. 手工初始化项目<git init / git clone>
+1. 更新代码<git pull *>
+2. 打包<mvn clean install>
+3. 杀掉Tomcat 进程<kill -9 #PID#>
+4. 备份旧war包<backup old-war (mv) >
+5. 部署新war包<deploy new-war (cp) >
+6. 启动Tomcat<./bin/startup.sh>
 
